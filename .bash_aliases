@@ -11,4 +11,4 @@ alias atf="at --filter"
 #Docker specific
 #Development laravel
 alias ldea="sudo docker-compose exec app bash"
-alias ldes="sudo docker run --rm -it -v $(pwd)/laravel-app:/app -w="/app" node:14-alpine sh"
+alias lden="sudo docker run --rm -it -v $(pwd)/laravel-app:/app -w="/app" node:14-alpine sh"
