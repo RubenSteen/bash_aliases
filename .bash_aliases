@@ -15,3 +15,5 @@ alias at="a test"
 
 ##Formatting
 alias ap="a pint"
+
+alias ssr="a inertia:start-ssr"
