@@ -14,6 +14,8 @@ alias amf="a migrate:fresh"
 
 ##Testing
 alias at="a test"
+alias atp="./vendor/bin/pest"
+alias atpp="atp -paralel"
 
 ##Formatting
 alias ap="a pint"
