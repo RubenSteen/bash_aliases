@@ -13,11 +13,13 @@ alias am="a migrate"
 alias amf="a migrate:fresh"
 
 ##Testing
+alias pest="./vendor/bin/pest"
+
 alias at="a test"
 alias atp="./vendor/bin/pest"
 alias atpp="atp -paralel"
 
 ##Formatting
-alias ap="a pint"
+alias pint="./vendor/bin/pint"
 
 alias ssr="a inertia:start-ssr"
