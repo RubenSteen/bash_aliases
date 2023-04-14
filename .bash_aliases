@@ -13,6 +13,7 @@ alias acc="a cache:clear"
 ##Database
 alias am="a migrate"
 alias amf="a migrate:fresh"
+alias amfs="a migrate:fresh --seed"
 
 ##Testing
 alias pest="./vendor/bin/pest"
