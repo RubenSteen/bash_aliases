@@ -26,6 +26,3 @@ alias atpp="atp -paralel"
 alias pint="./vendor/bin/pint"
 
 alias ssr="a inertia:start-ssr"
-
-##Statamic
-alias statamic="/home/sail/.config/composer/vendor/bin/statamic new koorameezing studio1902/statamic-peakr"
