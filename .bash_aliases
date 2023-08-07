@@ -1,5 +1,3 @@
-#curl https://raw.githubusercontent.com/RubenSteen/bash_aliases/master/.bash_aliases --output ~/.bash_aliases
-
 alias c="code ."
 
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
