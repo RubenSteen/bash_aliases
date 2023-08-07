@@ -4,6 +4,8 @@ alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
 alias ll="ls -la"
 
+alias ssh to container="docker-compose cp ~/.ssh laravel.test:/home/sail"
+
 #Laravel specific
 alias a="php artisan"
 
