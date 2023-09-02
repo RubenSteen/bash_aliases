@@ -28,3 +28,7 @@ alias atpp="atp -paralel"
 alias pint="./vendor/bin/pint"
 
 alias ssr="a inertia:start-ssr"
+
+#Docker
+alias d="docker"
+alias dc="docker-compose"
