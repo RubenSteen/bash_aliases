@@ -1,6 +1,7 @@
-alias c="code ."
-
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias sail-install='sail-install83'
+alias sail-install83='docker run --rm -u "$(id -u):$(id -g)" -v "$(pwd):/var/www/html" -w /var/www/html laravelsail/php83-composer:latest composer install --ignore-platform-reqs'
+alias sail-key-generate='docker run --rm -u "$(id -u):$(id -g)" -v "$(pwd):/var/www/html" -w /var/www/html laravelsail/php83-composer:latest php artisan key:generate'
 
 alias ll="ls -la"
 
