@@ -1,0 +1,8 @@
+# Git alias ⬇️
+# https://laravel-news.com/five-ways-to-be-more-productive-with-git
+[alias]
+    # https://laravel-news.com/five-ways-to-be-more-productive-with-git#content-git-nah
+    nah = "!f(){ git reset --hard; git clean -df; if [ -d ".git/rebase-apply" ] || [ -d ".git/rebase-merge" ]; then git rebase --abort; fi; }; f"
+
+    # https://laravel-news.com/five-ways-to-be-more-productive-with-git#content-git-uncommit
+    uncommit = reset --soft HEAD~1
